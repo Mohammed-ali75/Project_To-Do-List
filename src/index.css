@@ -1,0 +1,118 @@
+body {
+  background-color: #edede9;
+}
+
+.Tasks {
+  padding: 50px;
+  color: #a98d7d;
+  margin: 100px 30%;
+  padding-top: 15px;
+  text-align: center;
+  border-radius: 25px;
+  border: 1px solid #a98d7d;
+  background-color: #edede9;
+}
+
+.Tasks input {
+  width: 45%;
+  height: 40px;
+  margin: 20px 0px;
+  background-color: #f5ebe0;
+  border: 1px #a98d7d solid;
+}
+.Tasks [placeholder="Enter new Title..."] {
+  border-radius: 25px 0px 0px 25px;
+}
+.Tasks [placeholder="Enter new Task..."] {
+  border-radius: 0px 25px 25px 0px;
+}
+
+.Tasks button {
+  border: 0;
+  margin: auto;
+  width: 150px;
+  height: 30px;
+  display: block;
+  margin-top: 20px;
+  color: #a17f6c;
+  border-radius: 5px;
+  background-color: #d3c2b4;
+}
+
+.Tasks button:hover {
+  color: #5f4a3e;
+  background-color: #c7af9c;
+}
+
+table {
+  width: 50%;
+  margin: auto;
+  font-size: 20px;
+  color: #6f5141;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+}
+
+thead {
+  background-color: #d6ccc2;
+}
+
+th,
+td {
+  width: 50%;
+  padding: 8px 10px;
+  border: 1px solid #a98d7d;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: #f5ebe0;
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+
+ul {
+  width: 0;
+  margin: auto;
+  font-size: 25px;
+  list-style-type: circle;
+}
+.ol {
+  width: 0%;
+}
+ol {
+  width: 0;
+  margin: auto;
+  font-size: 25px;
+}
+
+ul li,
+ol li {
+  width: 0px;
+}
+
+.done {
+  list-style: "✔️";
+}
+
+.done2 {
+  background-color: #8cbd28;
+}
+
+tbody > .done2:nth-of-type(even) {
+  background-color: #9acd32b3;
+}
+
+.delete {
+  list-style: "❌";
+}
